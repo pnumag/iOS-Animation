@@ -14,6 +14,11 @@
 		24B287B8213CBA580062AE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B287B6213CBA580062AE3A /* LaunchScreen.storyboard */; };
 		24B287C3213CBA580062AE3A /* iOS_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287C2213CBA580062AE3A /* iOS_AnimationTests.swift */; };
 		24B287CE213CBA580062AE3A /* iOS_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287CD213CBA580062AE3A /* iOS_AnimationUITests.swift */; };
+		24B287DD213CBB430062AE3A /* ContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287DC213CBB430062AE3A /* ContentsTableViewCell.swift */; };
+		24B287E0213CBE2E0062AE3A /* MoveUIViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287DF213CBE2E0062AE3A /* MoveUIViewViewController.swift */; };
+		24B287E2213CBE390062AE3A /* MoveUIViewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B287E1213CBE390062AE3A /* MoveUIViewViewController.storyboard */; };
+		24B287E4213CBE9E0062AE3A /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287E3213CBE9E0062AE3A /* MoveView.swift */; };
+		24B287E7213CC15C0062AE3A /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B287E6213CC15C0062AE3A /* Cells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		24B287C9213CBA580062AE3A /* iOS-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B287CD213CBA580062AE3A /* iOS_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AnimationUITests.swift; sourceTree = "<group>"; };
 		24B287CF213CBA580062AE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B287DC213CBB430062AE3A /* ContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewCell.swift; sourceTree = "<group>"; };
+		24B287DF213CBE2E0062AE3A /* MoveUIViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveUIViewViewController.swift; sourceTree = "<group>"; };
+		24B287E1213CBE390062AE3A /* MoveUIViewViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoveUIViewViewController.storyboard; sourceTree = "<group>"; };
+		24B287E3213CBE9E0062AE3A /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
+		24B287E6213CC15C0062AE3A /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,9 @@
 		24B287AC213CBA570062AE3A /* iOS-Animation */ = {
 			isa = PBXGroup;
 			children = (
+				24B287DE213CBDFF0062AE3A /* MoveUIView */,
+				24B287DB213CBB1B0062AE3A /* Main */,
 				24B287AD213CBA570062AE3A /* AppDelegate.swift */,
-				24B287AF213CBA570062AE3A /* ViewController.swift */,
-				24B287B1213CBA570062AE3A /* Main.storyboard */,
 				24B287B4213CBA580062AE3A /* Assets.xcassets */,
 				24B287B6213CBA580062AE3A /* LaunchScreen.storyboard */,
 				24B287B9213CBA580062AE3A /* Info.plist */,
@@ -123,6 +133,27 @@
 				24B287CF213CBA580062AE3A /* Info.plist */,
 			);
 			path = "iOS-AnimationUITests";
+			sourceTree = "<group>";
+		};
+		24B287DB213CBB1B0062AE3A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				24B287AF213CBA570062AE3A /* ViewController.swift */,
+				24B287B1213CBA570062AE3A /* Main.storyboard */,
+				24B287DC213CBB430062AE3A /* ContentsTableViewCell.swift */,
+				24B287E6213CC15C0062AE3A /* Cells.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		24B287DE213CBDFF0062AE3A /* MoveUIView */ = {
+			isa = PBXGroup;
+			children = (
+				24B287DF213CBE2E0062AE3A /* MoveUIViewViewController.swift */,
+				24B287E1213CBE390062AE3A /* MoveUIViewViewController.storyboard */,
+				24B287E3213CBE9E0062AE3A /* MoveView.swift */,
+			);
+			path = MoveUIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B287B8213CBA580062AE3A /* LaunchScreen.storyboard in Resources */,
+				24B287E2213CBE390062AE3A /* MoveUIViewViewController.storyboard in Resources */,
 				24B287B5213CBA580062AE3A /* Assets.xcassets in Resources */,
 				24B287B3213CBA570062AE3A /* Main.storyboard in Resources */,
 			);
@@ -256,7 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B287E0213CBE2E0062AE3A /* MoveUIViewViewController.swift in Sources */,
+				24B287E7213CC15C0062AE3A /* Cells.swift in Sources */,
+				24B287DD213CBB430062AE3A /* ContentsTableViewCell.swift in Sources */,
 				24B287B0213CBA570062AE3A /* ViewController.swift in Sources */,
+				24B287E4213CBE9E0062AE3A /* MoveView.swift in Sources */,
 				24B287AE213CBA570062AE3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
