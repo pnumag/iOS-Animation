@@ -23,3 +23,22 @@ iOS-Animation
 
   MoveUIView는 View를 클릭하고 마우스 드래그 시 뷰의 이동과 변화를 주는 예제입니다.
   
+  <img src="images/MoveUIView.gif" width="200"/>
+
+* **PickAndUniqIcon**
+
+  회사 프로젝트인 픽앤유니크의 아이콘 이미지를 UIBezierPath와 Stroke 애니메이션을 이용해 만들어 본 예제입니다.
+  
+  <img src="images/PickAndUniqIcon.gif" width="200"/>
+  
+* **SquareLoding**
+
+  사각형 레이어 4개를 이용하여 만든 CustomActivityIndicator로 CAKeyframeAnimation의 transform 애니메이션 효과를 이용해 만들어 본 예제입니다.
+  
+  <img src="images/SquareLoding.gif" width="200"/>
+  
+* **PathMoveView**
+
+  마우스로 그린 경로를 UIBezierPath로 만들어서 CAKeyframeAnimation의 position 애니메이션 효과로 경로를 따라 움직이는 뷰를 만들어 본 예제입니다.
+
+  <img src="images/PathMoveView.gif" width="200"/>
