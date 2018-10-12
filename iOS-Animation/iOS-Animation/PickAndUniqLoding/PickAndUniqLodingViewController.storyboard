@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f43-9n-zqh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pick And Uniq Loding View Controller-->
+        <scene sceneID="EJ0-zM-Xh6">
+            <objects>
+                <viewController storyboardIdentifier="PickAndUniqLodingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f43-9n-zqh" customClass="PickAndUniqLodingViewController" customModule="iOS_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9hd-fv-6Gf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbd-ED-Yfl">
+                                <rect key="frame" x="170" y="629" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="onActivityIndicatorOnOff:" destination="f43-9n-zqh" eventType="touchUpInside" id="C1I-fI-zAm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Pbd-ED-Yfl" firstAttribute="centerX" secondItem="9hd-fv-6Gf" secondAttribute="centerX" id="Sp2-ZR-Ggo"/>
+                            <constraint firstItem="aNy-9i-MFD" firstAttribute="bottom" secondItem="Pbd-ED-Yfl" secondAttribute="bottom" constant="8" id="bOI-pk-m7B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aNy-9i-MFD"/>
+                    </view>
+                    <connections>
+                        <outlet property="onoffButton" destination="Pbd-ED-Yfl" id="D4E-HC-m6t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBB-Mn-KuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="120"/>
+        </scene>
+    </scenes>
+</document>

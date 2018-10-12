@@ -6,12 +6,6 @@
 //  Copyright © 2018년 swieeft. All rights reserved.
 //
 
-/* ---------------------------------------------------
- MoveUIView에서는 UIView를 마우스 클릭 후 드래그 시
- 설정 된 애니메이션이 UIView의 위치에 따라 상태가 변경 되도록
- 애니메이션을 적용해보았습니다.
---------------------------------------------------- */
-
 import UIKit
 
 class MoveUIViewViewController: UIViewController {
