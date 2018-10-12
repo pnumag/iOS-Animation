@@ -26,6 +26,7 @@ class Cells {
         setMoveViewData()
         setPickAndUniqIconData()
         setPickAndUniqLodingData()
+        setPathMoveView()
     }
     
     private static func setMoveViewData() {
@@ -52,6 +53,15 @@ class Cells {
         }
         
         let data = cellData(title: "Pick&Uniq Loding", vc: vc)
+        cells.append(data)
+    }
+    
+    private static func setPathMoveView() {
+        guard let vc = PathMoveViewViewController.storyboardInstance() else {
+            return
+        }
+        
+        let data = cellData(title: "PathMoveView", vc: vc)
         cells.append(data)
     }
 }
