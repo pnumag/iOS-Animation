@@ -1,2 +1,9 @@
-# iOS-Animation
-iOS Animation Study
+<img src="images/Logo.gif" width="100%"/>
+
+iOS-Animation
+===============
+
+## 1. iOS-Animation을 정리하는 이유
+애니메이션이란 것은 있으면 좋지만 없어도 그만이라는 인식이 아직은 많이 남아있습니다.
+
+하지만 단순한 애니메이션 하나라도 사용자에게 보여지는 이미지는 엄청난 차이를 만든다고 생각합니다.
