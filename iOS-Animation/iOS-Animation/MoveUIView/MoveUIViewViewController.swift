@@ -46,8 +46,6 @@ class MoveUIViewViewController: UIViewController {
     }
     
     func rotationAnimation() {
-//        self.moveView.transform = CGAffineTransform(rotationAngle: 360)
-        
         var rotation:CATransform3D = CATransform3DIdentity
 
         rotation = CATransform3DRotate(rotation, 180, 0, 1, 0)

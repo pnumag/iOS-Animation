@@ -20,6 +20,8 @@ extension StoryboardName where Self:UIViewController {
 
 extension UIViewController: StoryboardName {
     static func storyboardInstance<T:UIViewController>() -> T? {
+        print(self.storyboardName)
+        
         let vc = UIStoryboard(name: self.storyboardName, bundle: nil).instantiateInitialViewController() as? T
         return vc
     }

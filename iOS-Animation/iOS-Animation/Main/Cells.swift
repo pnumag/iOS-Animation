@@ -23,11 +23,25 @@ class Cells {
     static var cells:[cellData] = []
     
     static func setCells() {
-        guard let moveViewVC = MoveUIViewViewController.storyboardInstance() else {
+        setMoveViewData()
+        setPickAndUniqIconData()
+    }
+    
+    private static func setMoveViewData() {
+        guard let vc = MoveUIViewViewController.storyboardInstance() else {
             return
         }
         
-        let moveViewData = cellData(title: "MoveView", vc: moveViewVC)
-        cells.append(moveViewData)
+        let data = cellData(title: "MoveView", vc: vc)
+        cells.append(data)
+    }
+    
+    private static func setPickAndUniqIconData() {
+        guard let vc = PickAndUniqIconViewController.storyboardInstance() else {
+            return
+        }
+        
+        let data = cellData(title: "Pick&Uniq Icon", vc: vc)
+        cells.append(data)
     }
 }
