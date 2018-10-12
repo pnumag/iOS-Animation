@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pick And Uniq Loding View Controller-->
+        <!--Square Loding View Controller-->
         <scene sceneID="EJ0-zM-Xh6">
             <objects>
-                <viewController storyboardIdentifier="PickAndUniqLodingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f43-9n-zqh" customClass="PickAndUniqLodingViewController" customModule="iOS_Animation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SquareLodingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f43-9n-zqh" customClass="SquareLodingViewController" customModule="iOS_Animation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9hd-fv-6Gf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

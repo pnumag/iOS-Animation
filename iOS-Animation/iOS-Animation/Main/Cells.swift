@@ -25,7 +25,7 @@ class Cells {
     static func setCells() {
         setMoveViewData()
         setPickAndUniqIconData()
-        setPickAndUniqLodingData()
+        setSquareLodingData()
         setPathMoveView()
     }
     
@@ -47,12 +47,12 @@ class Cells {
         cells.append(data)
     }
     
-    private static func setPickAndUniqLodingData() {
-        guard let vc = PickAndUniqLodingViewController.storyboardInstance() else {
+    private static func setSquareLodingData() {
+        guard let vc = SquareLodingViewController.storyboardInstance() else {
             return
         }
         
-        let data = cellData(title: "Pick&Uniq Loding", vc: vc)
+        let data = cellData(title: "Square Loding", vc: vc)
         cells.append(data)
     }
     

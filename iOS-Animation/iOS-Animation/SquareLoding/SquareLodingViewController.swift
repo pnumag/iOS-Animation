@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PickAndUniqLodingViewController: UIViewController {
+class SquareLodingViewController: UIViewController {
 
     lazy private var activityIndicator: CustomActivityIndicatorView = {
         return CustomActivityIndicatorView(size: CGSize(width: 150, height: 150))

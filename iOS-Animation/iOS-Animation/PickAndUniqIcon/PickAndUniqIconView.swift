@@ -28,7 +28,7 @@ class PickAndUniqIconView: UIView {
                 .addLine(x: x - 15, y: y - 20)
                 .addArc(centerX: x - 30.5, centerY: y - 15, radius: 15, start: 3 * .pi / 2 + 0.785, end: .pi + 0.785, clockwise: false)
             
-            let color = UIColor.iconCyanColor
+            let color = UIColor.squareKobiColor
             
             return (path.cgPath, color.cgColor)
         }
@@ -39,7 +39,7 @@ class PickAndUniqIconView: UIView {
             let path = UIBezierPath().addArc(centerX: x - 30.5, centerY: y - 15, radius: 15, start: .pi + 0.785, end: .pi - 0.785, clockwise: false)
                 .addLine(x: x - 22, y: y + 18)
             
-            let color = UIColor.iconYellowColor
+            let color = UIColor.squareAmberColor
             
             return (path.cgPath, color.cgColor)
         }
@@ -51,7 +51,7 @@ class PickAndUniqIconView: UIView {
                 .addLine(x: x, y: y + 43)
                 .addLine(x: x + 12, y: y + 31)
             
-            let color = UIColor.iconPinkColor
+            let color = UIColor.squareGreenGrapesColor
             
             return (path.cgPath, color.cgColor)
         }
@@ -62,7 +62,7 @@ class PickAndUniqIconView: UIView {
             let path = UIBezierPath().move(x: x + 12, y: y + 31)
                 .addLine(x: x + 65, y: y - 25)
             
-            let color = UIColor.iconPurpleColor
+            let color = UIColor.squareRobinsEggBlueColor
             
             return (path.cgPath, color.cgColor)
         }

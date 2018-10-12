@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PickAndUniqLodingAnimation {
+class SquareLodingAnimation {
     static func setUpAnimation(in layer: CALayer, size: CGSize) {
         let rectangleSize: CGFloat = size.width / 4
         let duration: CFTimeInterval = 2.0
@@ -22,37 +22,37 @@ class PickAndUniqLodingAnimation {
         let forKey = "lodingAnimation"
         let layerSize = CGSize(width: rectangleSize, height: rectangleSize)
         
-        //rectangle1
+        //square1
         let animation = getAnimation().setValues(flags: [0, 1, 3, 2, 0, 0, 0, 0], x: x, y: y)
             .setDuration(duration)
             .setRepeatCount(HUGE)
             .setIsRemovedOnCompletion(false)
         
-        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.iconYellowColor)
+        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.squareKobiColor)
             .setFrame(frame)
             .addAnimation(animation, forKey: forKey)
             .addToSuperLayer(layer)
         
-        //rectangle2
+        //square2
         animation.setValues(flags: [1, 1, 3, 2, 0, 1, 1, 1], x: x, y: y)
         
-        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.iconPurpleColor)
+        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.squareAmberColor)
             .setFrame(frame)
             .addAnimation(animation, forKey: forKey)
             .addToSuperLayer(layer)
         
-        //rectangle3
+        //square3
         animation.setValues(flags: [3, 3, 3, 2, 0, 1, 3, 3], x: x, y: y)
         
-        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.iconPinkColor)
+        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.squareGreenGrapesColor)
             .setFrame(frame)
             .addAnimation(animation, forKey: forKey)
             .addToSuperLayer(layer)
         
-        //rectangle4
+        //square4
         animation.setValues(flags: [2, 2, 2, 2, 0, 1, 3, 2], x: x, y: y)
         
-        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.iconCyanColor)
+        CAShapeLayer().createRectangleLayer(size: layerSize, color: UIColor.squareRobinsEggBlueColor)
             .setFrame(frame)
             .addAnimation(animation, forKey: forKey)
             .addToSuperLayer(layer)

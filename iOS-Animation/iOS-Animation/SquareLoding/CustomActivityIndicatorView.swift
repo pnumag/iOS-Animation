@@ -26,7 +26,7 @@ class CustomActivityIndicatorView: UIView {
         
         self.layer.addSublayer(animationLayer)
         
-        PickAndUniqLodingAnimation.setUpAnimation(in: animationLayer, size: size)
+        SquareLodingAnimation.setUpAnimation(in: animationLayer, size: size)
     }
     
     func addToSuperView(superview:UIView) {

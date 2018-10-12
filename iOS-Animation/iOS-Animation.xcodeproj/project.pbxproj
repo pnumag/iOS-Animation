@@ -12,13 +12,13 @@
 		2484A69F217027E5000A1546 /* PickAndUniqIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A69E217027E5000A1546 /* PickAndUniqIconView.swift */; };
 		2484A6A22170285F000A1546 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6A12170285F000A1546 /* UIColorExtension.swift */; };
 		2484A6A4217028F5000A1546 /* UIBezierPathExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6A3217028F5000A1546 /* UIBezierPathExtention.swift */; };
-		2484A6A721702DD9000A1546 /* PickAndUniqLodingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6A621702DD9000A1546 /* PickAndUniqLodingAnimation.swift */; };
+		2484A6A721702DD9000A1546 /* SquareLodingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6A621702DD9000A1546 /* SquareLodingAnimation.swift */; };
 		2484A6A921702DFE000A1546 /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6A821702DFE000A1546 /* Animate.swift */; };
 		2484A6AB21702E4B000A1546 /* CAKeyframeAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6AA21702E4B000A1546 /* CAKeyframeAnimationExtension.swift */; };
 		2484A6AD21702E75000A1546 /* CAShapeLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6AC21702E75000A1546 /* CAShapeLayerExtension.swift */; };
 		2484A6AF21702F1E000A1546 /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6AE21702F1E000A1546 /* CustomActivityIndicatorView.swift */; };
-		2484A6B121702F48000A1546 /* PickAndUniqLodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6B021702F48000A1546 /* PickAndUniqLodingViewController.swift */; };
-		2484A6B321702F50000A1546 /* PickAndUniqLodingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2484A6B221702F50000A1546 /* PickAndUniqLodingViewController.storyboard */; };
+		2484A6B121702F48000A1546 /* SquareLodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6B021702F48000A1546 /* SquareLodingViewController.swift */; };
+		2484A6B321702F50000A1546 /* SquareLodingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2484A6B221702F50000A1546 /* SquareLodingViewController.storyboard */; };
 		2484A6B621703306000A1546 /* PathMoveViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6B521703306000A1546 /* PathMoveViewViewController.swift */; };
 		2484A6B82170330B000A1546 /* PathMoveViewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2484A6B72170330B000A1546 /* PathMoveViewViewController.storyboard */; };
 		2484A6BA21703361000A1546 /* PathMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A6B921703361000A1546 /* PathMoveView.swift */; };
@@ -60,13 +60,13 @@
 		2484A69E217027E5000A1546 /* PickAndUniqIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndUniqIconView.swift; sourceTree = "<group>"; };
 		2484A6A12170285F000A1546 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		2484A6A3217028F5000A1546 /* UIBezierPathExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtention.swift; sourceTree = "<group>"; };
-		2484A6A621702DD9000A1546 /* PickAndUniqLodingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndUniqLodingAnimation.swift; sourceTree = "<group>"; };
+		2484A6A621702DD9000A1546 /* SquareLodingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLodingAnimation.swift; sourceTree = "<group>"; };
 		2484A6A821702DFE000A1546 /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		2484A6AA21702E4B000A1546 /* CAKeyframeAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKeyframeAnimationExtension.swift; sourceTree = "<group>"; };
 		2484A6AC21702E75000A1546 /* CAShapeLayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayerExtension.swift; sourceTree = "<group>"; };
 		2484A6AE21702F1E000A1546 /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
-		2484A6B021702F48000A1546 /* PickAndUniqLodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndUniqLodingViewController.swift; sourceTree = "<group>"; };
-		2484A6B221702F50000A1546 /* PickAndUniqLodingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickAndUniqLodingViewController.storyboard; sourceTree = "<group>"; };
+		2484A6B021702F48000A1546 /* SquareLodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLodingViewController.swift; sourceTree = "<group>"; };
+		2484A6B221702F50000A1546 /* SquareLodingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLodingViewController.storyboard; sourceTree = "<group>"; };
 		2484A6B521703306000A1546 /* PathMoveViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathMoveViewViewController.swift; sourceTree = "<group>"; };
 		2484A6B72170330B000A1546 /* PathMoveViewViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PathMoveViewViewController.storyboard; sourceTree = "<group>"; };
 		2484A6B921703361000A1546 /* PathMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathMoveView.swift; sourceTree = "<group>"; };
@@ -139,15 +139,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		2484A6A521702D61000A1546 /* PickAndUniqLoding */ = {
+		2484A6A521702D61000A1546 /* SquareLoding */ = {
 			isa = PBXGroup;
 			children = (
-				2484A6A621702DD9000A1546 /* PickAndUniqLodingAnimation.swift */,
+				2484A6A621702DD9000A1546 /* SquareLodingAnimation.swift */,
 				2484A6AE21702F1E000A1546 /* CustomActivityIndicatorView.swift */,
-				2484A6B021702F48000A1546 /* PickAndUniqLodingViewController.swift */,
-				2484A6B221702F50000A1546 /* PickAndUniqLodingViewController.storyboard */,
+				2484A6B021702F48000A1546 /* SquareLodingViewController.swift */,
+				2484A6B221702F50000A1546 /* SquareLodingViewController.storyboard */,
 			);
-			path = PickAndUniqLoding;
+			path = SquareLoding;
 			sourceTree = "<group>";
 		};
 		2484A6B4217032B4000A1546 /* PathMoveView */ = {
@@ -185,7 +185,7 @@
 			children = (
 				2484A6A021702833000A1546 /* Utils */,
 				2484A6B4217032B4000A1546 /* PathMoveView */,
-				2484A6A521702D61000A1546 /* PickAndUniqLoding */,
+				2484A6A521702D61000A1546 /* SquareLoding */,
 				2484A6992170266C000A1546 /* PickAndUniqIcon */,
 				24B287DE213CBDFF0062AE3A /* MoveUIView */,
 				24B287DB213CBB1B0062AE3A /* Main */,
@@ -342,7 +342,7 @@
 			files = (
 				24B287B8213CBA580062AE3A /* LaunchScreen.storyboard in Resources */,
 				2484A69D2170278B000A1546 /* PickAndUniqIconViewController.storyboard in Resources */,
-				2484A6B321702F50000A1546 /* PickAndUniqLodingViewController.storyboard in Resources */,
+				2484A6B321702F50000A1546 /* SquareLodingViewController.storyboard in Resources */,
 				24B287E2213CBE390062AE3A /* MoveUIViewViewController.storyboard in Resources */,
 				2484A6B82170330B000A1546 /* PathMoveViewViewController.storyboard in Resources */,
 				24B287B5213CBA580062AE3A /* Assets.xcassets in Resources */,
@@ -375,9 +375,9 @@
 				24B287E0213CBE2E0062AE3A /* MoveUIViewViewController.swift in Sources */,
 				2484A6AD21702E75000A1546 /* CAShapeLayerExtension.swift in Sources */,
 				24B287E7213CC15C0062AE3A /* Cells.swift in Sources */,
-				2484A6B121702F48000A1546 /* PickAndUniqLodingViewController.swift in Sources */,
+				2484A6B121702F48000A1546 /* SquareLodingViewController.swift in Sources */,
 				2484A6AF21702F1E000A1546 /* CustomActivityIndicatorView.swift in Sources */,
-				2484A6A721702DD9000A1546 /* PickAndUniqLodingAnimation.swift in Sources */,
+				2484A6A721702DD9000A1546 /* SquareLodingAnimation.swift in Sources */,
 				24B287DD213CBB430062AE3A /* ContentsTableViewCell.swift in Sources */,
 				24B287B0213CBA570062AE3A /* ViewController.swift in Sources */,
 				2484A6A4217028F5000A1546 /* UIBezierPathExtention.swift in Sources */,

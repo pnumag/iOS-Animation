@@ -10,11 +10,10 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    
-    static let iconCyanColor = UIColor(red: 0, green: 0.83137255, blue: 0.89803922, alpha: 1) // icon 하늘색
-    static let iconYellowColor = UIColor(red: 0.99607843, green: 0.77647059, blue: 0.03921569, alpha: 1) // icon 노란색
-    static let iconPinkColor = UIColor(red: 1, green: 0.22352941, blue: 0.51764706, alpha: 1) // icon 분홍색
-    static let iconPurpleColor = UIColor(red: 0.51764706, green: 0.35294118, blue: 0.96470588, alpha: 1) // icon 보라색
+    static let squareKobiColor = UIColor(red: 0.91, green: 0.63, blue: 0.72, alpha: 1)
+    static let squareAmberColor = UIColor(red: 1, green: 0.76, blue: 0, alpha: 1)
+    static let squareGreenGrapesColor = UIColor(red: 0.74, green: 0.81, blue: 0.24, alpha: 1)
+    static let squareRobinsEggBlueColor = UIColor(red: 0.01, green: 0.79, blue: 0.79, alpha: 1)
     
     static func random() -> UIColor {
         return UIColor(red:   .random(),
